@@ -33,8 +33,10 @@ body{
 
 .container{
     background-color: #fff;
-    margin: 20px;
-    height: 530px;
+    margin-top: 20px;
+    margin: auto;
+    /* height: 560px; */
+    max-width: 720px;
     /* padding: 20px; */
     border-radius: 10px;
     box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15), -3px 3px 3px hsl(228, 45%, 44%, 0.15);
@@ -148,17 +150,17 @@ p{
     right: 0;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 529px){
     .bg_image{
         background: url("images/pattern-background-desktop.svg") no-repeat center/cover;
         height: 50vh;
     }
     .container{
-        width: 90%;
-        margin-top: 1px;
+        width: 400px;
+        margin-top: 30px;
     }
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .container{
         width: 40%;
         margin: auto;
@@ -166,9 +168,9 @@ p{
         margin-top: 50px;
     }
 }
-@media (max-width: 278px){
+/* @media (max-width: 278px){
     .container{
         width: 90%;
         margin: auto;
     }
-}
+} */
